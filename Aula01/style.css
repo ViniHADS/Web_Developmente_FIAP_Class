@@ -1,7 +1,13 @@
 body{
-    background-color: bisque;
+    background-color: beige;
 }
-p{
+
+h1{
     color:black;
-    font-size: 35px;
+    font-size: larger;
+}
+
+h2{
+    color: black;
+    font-size: large;
 }
