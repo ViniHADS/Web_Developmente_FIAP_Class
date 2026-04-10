@@ -1,0 +1,54 @@
+/* estrutura semântica de usabilidade - I.e 1º
+objeto{
+atributo: valor;
+propriedade: valor;
+
+I.e 2º 
+objeto
+tag         nome da tag         header
+.class      valor do atrib class   .site
+#id         valor único
+}
+*/
+body{
+    background-color: antiquewhite;
+}
+
+/* 
+body header nav a{
+    color: green;
+    font-weight: bold;
+    text-decoration::after
+}
+*/
+
+logo{
+    margin-top: 25px;
+    margin-bottom: 25px;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+fotos{
+    width: 20%;
+    float: left;
+
+}
+
+h1{
+    font-size: larger;
+    color: #000;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+h2{
+    font-size: medium;
+    color: #000;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+h3{
+    font-size: medium;
+    color: #000;
+    font-family: 'Times New Roman', Times, serif;
+}
