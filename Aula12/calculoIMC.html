@@ -1,0 +1,39 @@
+<!DOCTYPE html> 
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora IMC</title>
+    <link rel="stylesheet" href="Styles/style.css">
+</head>
+<body>
+    <main class="container">
+        <section class="input-panel">
+            <h2>Calculadora de IMC</h2>
+            <label>Peso (kg)</label>
+            <input type="text" id="txtPeso" placeholder="Ex: 70">
+            <label>Altura (m)</label>
+            <input type="text" id="txtAltura" placeholder="Ex: 1.75">
+            <input type="button" value="Calcular" id="btnCalcular">
+        </section>
+
+        <section class="result-display">
+            <h1 id="resultado">IMC = --</h1>
+            <p  id="status-texto" class="data_loading">Aguardando dados......</p>
+        </section>
+
+        <section class="tabela-imc">
+            <h3>Classificação</h3>
+            <ul>
+                <li id="cat1" class="faixa">Baixo peso: Até 18.5</li>
+                <li id="cat2" class="faixa">Peso normal: 18.5 - 24.9</li>
+                <li id="cat3" class="faixa">Sobrepeso: 25 - 29.9</li>
+                <li id="cat4" class="faixa">Obesidade grau I: 30 - 34.9</li>
+                <li id="cat5" class="faixa">Obesidade grau II: 35 - 39.9</li>
+                <li id="cat6" class="faixa">Obesidade grau III: acima de 40</li>
+            </ul>
+        </section>
+    </main>
+    <script src="js/script.js"></script>
+</body>
+</html>
