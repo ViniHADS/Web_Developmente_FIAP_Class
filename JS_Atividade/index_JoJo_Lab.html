@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jojo JS Lab</title>
+
+    <link rel="stylesheet" href="style/jojo_world.css">
+</head>
+<body>
+    
+    <h1 
+    id="titulo"> <span style="color: purple;"><b> &star; JoJo World &star; </b></span>
+    </h1>
+
+    <p>
+        Meu nome é: <span style="color: rgb(154, 33, 198);" id="atividade1"></span>
+    </p>
+    <!--=====================================-->
+    <!--======Atividade 1 de JavaScript======-->
+    <img src="1/Giorno_Anime.webp"  class="giorno-giovanna" alt="Giorno Giovanna" width="250px">
+    <!--=====================================-->
+    <!--=====================================-->
+
+
+    <!--=====================================-->
+    <!--======Atividade 2 de JavaScript======-->
+    <p id="texto-dio">
+        Eu sou DioBrando o maior vilão de Jojo Bizarre Adventures!
+    </p>
+
+    <input type="button" id="trocar_cor" class="cor" value="Trocar de cor / Invocar Za Warudo">
+    <br>
+    <img id="imagem-dinamica" class="imagem-jojo" src="/JS_Atividade/2/DioBrando.webp" alt="DioBrando Maior vilão de JoJo Bizarre Adventures" width="250px">
+    <!--=====================================-->
+    <!--=====================================-->
+
+    <!--=====================================-->
+    <!--======Atividade 3 de JavaScript======-->
+    <section class="secao-calculadora">
+        <h2>✨👊✨Calculadora de Status de Stands💥👊💥</h2>
+
+        <form id="form-stand">
+            <section class="campo-grupo">
+                <label for="input-ataque">Poder de Ataque</label>
+                <input type="number" id="input-ataque" placeholder="Ex: 85"> 
+            </section>
+
+            <section class="campo-grupo">
+                <label for="input-velocidade">Velocidade</label>
+                <input type="number" id="input-velocidade" placeholder="Ex: 100">
+            </section>
+
+            <input type="button" id="btn-calcular" class="cor" value="Calcular Poder Total">
+        </form>
+
+        <p>
+            O resultado do poder total do seu Stand é: <span id="resultado-calculo">0</span>
+        </p>
+
+    </section>
+    <!--=====================================-->
+    <!--=====================================-->
+
+    <!--======================================-->
+    <!--======Atividade 4 de JavaScript=======-->
+    <section class="secao-recrutamento">
+        <h2>Recrutamento da Gangue Passione</h2>
+
+        <form id="form-recrutamento">
+            <section class="campo-grupo">
+                <label for="input-aliado">Nome do Aliado:</label>
+                <input type="text" id="input-aliado" placeholder="Ex: Bruno Bucciarati">
+            </section>
+
+            <input type="button" id="btn-recrutar" class="cor" value="Recrutar Membro">
+        </form>
+
+        <!-- Lista Vazia que receberá os novos elementos via JS -->
+         <ul id="lista-gangue"></ul>
+    </section>
+    <!--=====================================-->
+    <!--=====================================-->
+
+    <!--=====================================-->
+    <!--======Atividade 5 de JavaScript======-->
+    <section class="secao-localizacao">
+        <h2>
+            Radar de Stand (Geolocalização)
+        </h2>
+        <p>
+            Clique no botão para detectar suas coordenadas e rastrear Stands próximos.
+        </p>
+
+        <input type="button" id="btn-localizar" class="cor" value="Ativar Radar">
+
+        <p id="status-radar">Radar desligado</p>
+        <p id="coordenadas"></p>
+    </section>
+    <!--=====================================-->
+    <!--=====================================-->
+
+
+    <!--=====================================-->
+    <!--===Link dos arquivos de JavaScript===-->
+    <script src="1/js_1.js"></script>
+    <script src="2/js_2.js"></script>
+    <script src="3/js_3.js"></script>
+    <script src="4/js_4.js"></script>
+    <script src="5/js_5.js"></script>
+    <!--=====================================-->
+    <!--=====================================-->
+</body>
+</html>

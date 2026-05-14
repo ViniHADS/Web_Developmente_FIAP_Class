@@ -1,0 +1,192 @@
+body {
+    background-color: #1a1a1a;
+    color: #fff;
+    font-family: 'arial ',sans-serif;
+    text-align: center;
+    padding: 50px;
+}
+
+p {
+    font-size: 1.5rem;
+    transition: all 0.5s ease;
+}
+/* In�cio da atividade  1 */
+.giorno-giovanna {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 15px;
+    margin-top: 20px;
+    opacity: 1;
+    border: 3px solid purple;
+}
+/* Limite da atividade 1 */
+
+
+/* In�cio da atividade 2 */
+/* Classe ativada pelo JS */
+.amarelo{
+    color: yellow;
+    background-color: black;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 0 15px #ffe600;
+}
+
+.imagem-jojo {
+    width: 300px;  
+    height: 300px;
+    object-fit: cover;
+    border-radius: 15px;
+    margin-top: 20px;
+    opacity: 1;
+    transition: opacity 0.5s ease-in-out;
+    border: 3px solid #ffe600;
+}
+
+/* Classe de efeito fade-out controlada pelo JS */
+.esmaecer {
+    opacity: 0;
+}
+
+.cor{
+    background-color: #ffe600;
+    color: black;
+    border: none;
+    padding: 12px 24px;
+    font-size: 1.1rem;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+    transition: background 0.3s;
+}
+
+.cor:hover {
+    background-color: #bfa300;
+}
+/* Limite da Atividade 2 */
+
+/* In�cio Atividade 3 */
+.secao-calculadora {
+    margin-top: 50px;
+    border-top: 2px dashed purple;
+    padding-top: 30px;
+}
+
+.campo-grupo {
+    margin-bottom: 20px;
+}
+
+.resultado-calculo {
+    color: purple;
+    font-weight: bold;
+}
+
+input[type="number"] {
+    background-color: #2a2a2a;
+    color: #fff;
+    border: 2px solid purple;
+    border-radius: 5px;
+    padding: 8px;
+    font-size: 1rem;
+    width: 100px;
+    text-align: center;
+    margin-left: 10px;
+}
+
+input[type="number"]:focus {
+    outline: none;
+    border-color: #ffe600; /* Muda para amarelo ao clicar dentro */ 
+    box-shadow: 0 0 8px purple;
+}
+
+label {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+/* Limite da Atividade 3 */
+
+/* In�cio da Atividade 4 */
+.secao-recrutamento{
+    margin-top: 50px;
+    border-top: 2px dashed purple;
+    padding-top: 30px;
+}
+
+/* Texto customizado no bloco */
+input[type="text"] {
+    background-color: #2a2a2a;
+    color: #fff;
+    border: 2px solid purple;
+    border-radius: 5px;
+    padding: 8px;
+    font-size: 1rem;
+    width: 200px;
+    margin-left: 10px;
+}
+
+input[type="text"]:focus {
+    outline: none;
+    border-color: #ffe600;
+    box-shadow: 0 0 8px purple;
+}
+
+/* Estiliza��o da lista de membros */
+#lista-gangue {
+    list-style-type: "⭐ ";
+    max-width: 300px;
+    margin: 20px auto 0 auto;
+    text-align: left;
+    padding-left: 20px;   
+}
+
+#lista-gangue li {
+    font-size: 1.3rem;
+    padding: 5px 0;
+    color: #ffe600;
+    animation: aparecer 0.4s ease-out; /* Efeito visual ao brotar na tela */
+}
+
+/* Anima��o que a IA me orientou a incluir no c�digo para dar uma melhorada no c�digo */
+@keyframes aparecer {
+    from { opacity: 0; transform: translateX(-10px); }
+    to { opacity: 1; transform: translateX(0); }
+}
+
+/* Limite da Atividade 4 */
+
+/* Início da Atividade 5 */
+
+.secao-localizacao {
+    margin-top: 50px;
+    border-top: 2px dashed purple;
+    padding-top: 30px;
+    margin-bottom: 50px;
+}
+
+#status-radar {
+    font-style: italic;
+    color: #aaa;
+    margin-top: 15px;
+}
+
+#coordenadas {
+    font-weight: bold;
+    color: #ffe600;
+}
+
+/* Estilização para o link do mapa que o JS vai criar */
+#coordenadas a {
+    color: #00ff0f;
+    text-decoration: none;
+    border-bottom: 1px dashed #0ff;
+}
+
+#coordenadas a:hoover {
+    color: #ffe600;
+    border-bottom-style: solid;
+}
+
+/* Limite da Atividade 5 */
